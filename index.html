@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Proyecto final Argentina Programa</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="img/icono1.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Menú Encabezado -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">PORTFOLIO</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobre-mi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- Sección del Inicio -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.jpg" alt="">
+            </div>
+            <h1>Facundo Batallanes</h1>
+            <h2>Tecnico Electromecanico - Junior Developer - strategist UI/UX</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección sobre mi -->
+    <section id="sobre-mi" class="sobremi-fondo">
+        <div class="caja-grande">
+            <div class="contenedor">
+                <div class="sobre-mi"><h2>Sobre Mi</h2></div>
+                <div class="texto">
+                <p><span>Hola, soy Facundo.</span> un estudiante de ingeniería Biomedica con formación tecnico profesional en reparación 
+                    e intalación de equipos electromecanicos. Motivado y apasionado por su campo laboral, con trayectoria en la electronica,
+                    la informatica y la mecánica. Reconocido por evaluar la necesidades operativas y desarrollar soluciones para ahorrar costes,
+                    mejorar los ingresos y aumentar la satisfacción del cliente. Ingenioso y bien organizado, y con un historial de trabajo en equipo.
+                    </p>
+            </div>
+
+            </div>
+            
+            <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        30-08-2002
+                    </li>
+                    <li>
+                        <strong>Teléfono</strong>
+                        +54 351 787 7434
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        facundo.batallanes@hotmail.com
+                    </li>
+                    <li>
+                        <strong>Idiomas</strong>
+                        Inglés, Portugués, Alemán y LSA.
+                    </li>
+                    <li>
+                        <strong>Dirección</strong>
+                        Barrio general Paz, Córdoba, Argentina. 
+                    </li>
+                    
+                    <li>
+                        <strong>Ocupación</strong>
+                        <span>Estudiante de Ing. Biomedica</span>
+                    </li>
+                </ul>
+            </div>  
+        </div>     
+
+        <!-- =======================================-->
+
+         
+    </section>
+
+    <!-- Habilidades -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Aptitudes Técnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Bootstrap</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SolidWorks</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Aptitudes Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Como hacer para que tengamos -->
+   
+
+    <!-- Sección curriculum -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>curriculum</h2>
+            <div class="Formacion-texto">
+            </div>
+                
+                    
+                <div class="tarjetas">
+                    <div class="item">
+                        <h4>Tecnico Electromecanico</h4>
+                        <span class="casa">Escuela Provincial de Educación Tecnica Nº5</span>
+                        <span class="fecha">2014 - 2020</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        
+                    </div>
+                    <div class="item">
+                        <h4>Ingeniería Biomedica</h4>
+                        <span class="casa">Universidad Nacional de Córdoba</span>
+                        <span class="fecha">2021 - Presente</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        
+                    </div>
+                    <div class="item">
+                        <h4>Curso Junior Developer</h4>
+                        <span class="casa">Argentina Programa</span>
+                        <span class="fecha">2022 - Presente</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        
+                    </div>
+                    <div class="item">
+                        <h4>Curso Máquinas y Equipos Mineros</h4>
+                        <span class="casa">Centro de Entrenamiento Minero</span>
+                        <span class="fecha">2017 - 2018</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        
+                    </div>
+                    <div class="item">
+                        <h4>Curso Mecatronica Avanzada</h4>
+                        <span class="casa">Centro de Formación Tec. Aurora</span>
+                        <span class="fecha">2018 - 2019</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        
+                    </div>
+                    <div class="item">
+                        <h4>Curso Auxiliar de Electricista</h4>
+                        <span class="casa">Centro de Formación profesional Nº2</span>
+                        <span class="fecha">2020 - 2020</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        
+                    </div>
+                </div>
+
+                
+
+        </div>
+    </section>
+
+    <!-- Sección portfolio -->
+
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>  
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/foto1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Santa María - Catamarca</h3>
+                        <p>Quebrada de Entre Rios</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/foto2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Salta Capital</h3>
+                        <p>Centro Historico</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/foto3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Cafayate - Salta</h3>
+                        <p>Quebrada de las Conchas</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/foto4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Santa María - Catamarca</h3>
+                        <p>Rio Santa María</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/foto5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Santa María - Catamarca</h3>
+                        <p>Valles del Yokavil</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/foto6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Santa María - Catamarca</h3>
+                        <p>trekking por Entre Rios</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/foto7.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Santa María - Catamarca</h3>
+                        <p>Valles Calchaquíes</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/foto8.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Santa María - Catamarca</h3>
+                        <p>Valles Calchaquíes</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/foto9.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Santa María - Catamarca</h3>
+                        <p>Valles Calchaquíes</p>
+                    </div>
+                </div>
+            </div>
+            <button>Ver Más</button>
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+
+    <!-- contacto -->
+    <div id="contacto" class="contact">
+        <div class="contenedor-contacto">
+            <div class="fila">
+                <div class="contacto-i">
+                    <div class="cajita">
+                        <h1>contacto</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>Facundo.Batallanes@hotmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i>+54 351 787 7434</p>
+                        <div class="redes">
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-skype"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fa-solid fa-rss"></i></a>
+                        </div>
+                        <button>
+                            Descargar CV <i class="fa-solid fa-download"></i>
+                            <span class="overlay"></span>
+                        </button> 
+                    </div>
+                    
+                </div>
+                <div class="contacto-d">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Nombre" required>
+                        <input type="email" name="email" placeholder="E-mail" required>
+                        <textarea name="Mensaje" placeholder ="Tu Mensaje" id="#"  rows="6"></textarea>
+                        <button type="submit" class="button">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- footer -->
+     <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        
+          <h2>Tu solución WEB</h2>
+        
+        <p>Copyright © 2020 F Batallanes. All rights reserved</p>
+    </footer>
+</body>
+</html>
